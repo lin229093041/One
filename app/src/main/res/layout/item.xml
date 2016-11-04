@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_vertical"
+        android:text="红烧牛肉面" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/image_jia"
+            android:layout_width="wrap_content"
+            android:background="#00000000"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shopping_jia" />
+
+        <TextView
+            android:id="@+id/num"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="1" />
+
+        <ImageButton
+            android:id="@+id/image_jian"
+            android:layout_width="wrap_content"
+            android:background="#00000000"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shopping_jian" />
+
+    </LinearLayout>
+</RelativeLayout>

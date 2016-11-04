@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_on_demand"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.oracle.oaec.androidproject.OnDemand">
+
+    <include layout="@layout/return_header" />
+
+
+    <ListView
+        android:id="@+id/lv_demand"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:divider="@null"></ListView>
+
+    <TextView
+        android:id="@+id/btn_demand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/music_image"
+        android:text="点播歌曲"
+        android:textColor="#eb4f38"
+        android:textSize="20sp" />
+
+</LinearLayout>
